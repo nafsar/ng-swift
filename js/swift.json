@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Swift is a safe programming language",
+		"att1": "The \"if\" statements requires brace brackets to open and close the statement.",
+		"att2": "The switch statements need to have a default statement."
+	}, {
+		"title": "Swift offers type inference",
+		"att1": "Developers don't need to spend time on annotating variables with type information in most cases. The Swift compiler can determine the type from the value that a variable is getting set with."
+	}, {
+		"title": "Swift Generics",
+		"att1": "Swift introduces Generics. Generics are functions that can be reused with different variable type without rewriting the each type."
+	}, {
+		"title": "Swift Tuples provide compound variables",
+		"att1": "A Tuple makes it possible to group multiple elements into a single compound variable. A Tuple can be of any permutation types like (Int, Int) or (int, String) or (String, Bool) or something else."
+	}, {
+		"title": "Swift String types",
+		"att1": "It is very easy to concatenate strings with Swift, using \"+=\" and compare strings with just \"==\"."
+	}, {
+		"title": "Swift Dictionaries",
+		"att1": "It is similar to JavaScript using square brackets. It is also called hash tables."
+	}, {
+		"title": "Swift adds optional semicolons",
+		"att1": "Yes, similar to JavaScript, adding semicolon to end of a programming statement is not required and it is optional."
+	}, {
+		"title": "Swift Closures",
+		"att1": "Swift comes with closures and ability to pass functions as first class objects. The good news, yes, it is similar to JavaScript."
+	}, {
+		"title": "Swift Protocols",
+		"att1": "Swift protocols are similar to Java interfaces. The protocols are used for sketching out a blueprint for a collection of classes."
+	}, {
+		"title": "Swift Automatic reference counting",
+		"att1": "The Automatic reference counting which it is similar to iOS Objective-C solutions."
+	}, {
+		"title": "Swift Signed and unsigned integers",
+		"att1": "Swift is offering signed and unsigned integers for one, two, four and eight bytes. This is similar to iOS Objective-C language."
+	}
+]
+

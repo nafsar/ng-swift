@@ -1,0 +1,19 @@
+<p>
+	<img ng-src="{{ctrl.image}}">
+</p>
+<section>
+	<p>
+		Some of the nice features of Apple's Swift programming language:
+	</p>
+	<div ng-repeat="sfda in swiftdata">
+		{{sfda.title}}
+		<ul>
+			<li>
+				{{sfda.att1}}
+			</li>
+			<li ng-show="sfda.att2">
+				{{sfda.att2}}
+			</li>
+		</ul>
+	</div>
+</section>
