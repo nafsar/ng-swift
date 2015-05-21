@@ -1,6 +1,6 @@
-(function(swift) {
+//(function(swift) {
 	'use strict';
-	var app = angular.module('swiftApp', []);
+	var app = angular.module('swiftApp', ['ui.bootstrap']);
 	app.directive('swiftFeatures', function() {
 		return {
 			restrict : 'AE',
@@ -18,4 +18,4 @@
 		};
 	});
 
-})(window.swift);
+//})(window.swift);

@@ -2,7 +2,8 @@
 	{
 		"title": "Swift is a safe programming language",
 		"att1": "The \"if\" statements requires brace brackets to open and close the statement.",
-		"att2": "The switch statements need to have a default statement."
+		"att2": "The switch statements need to have a default statement.",
+		"att3": ">> More"
 	}, {
 		"title": "Swift offers type inference",
 		"att1": "Developers don't need to spend time on annotating variables with type information in most cases. The Swift compiler can determine the type from the value that a variable is getting set with."

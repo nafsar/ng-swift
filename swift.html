@@ -1,7 +1,7 @@
 <p>
 	<img ng-src="{{ctrl.image}}">
 </p>
-<section>
+<section ng-controller="ModalDemoCtrl">
 	<p>
 		Some of the nice features of Apple's Swift programming language:
 	</p>
@@ -10,10 +10,15 @@
 		<ul>
 			<li>
 				{{sfda.att1}}
+				
 			</li>
+			
 			<li ng-show="sfda.att2">
 				{{sfda.att2}}
 			</li>
 		</ul>
+		<div ng-show="sfda.att3" ng-click="open()" style="text-align:center;color:blue;">{{sfda.att3}}</div>
 	</div>
+ <modal-pup ng-show="sfda.att3"> </modal-pup>
+ <p> </p>
 </section>
