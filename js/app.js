@@ -1,4 +1,4 @@
-//(function(swift) {
+
 	'use strict';
 	var app = angular.module('swiftApp', ['ui.bootstrap']);
 	app.directive('swiftFeatures', function() {
@@ -16,6 +16,4 @@
 			},
 			controllerAs : "ctrl"
 		};
-	});
-
-//})(window.swift);
+	})
